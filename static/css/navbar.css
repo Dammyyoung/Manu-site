@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: candara;
+}
+
+nav{
+    width: auto;
+    height: 70px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+
+nav ul a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+nav ul a:hover{
+    color: darkred;   
+}
+
+nav ul li #enroll-now-btn{
+    color: darkred;
+    border: 2px solid darkred;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+nav ul li #enroll-now-btn:hover{
+    color: white;
+    background-color: darkred;
+    transition: 0.3s;
+}

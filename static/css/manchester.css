@@ -1,0 +1,499 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+header {
+  height: 40px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+header ul {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+header ul li {
+  color: white;
+  margin: 0px 10px 0px 15px;
+}
+header #teamviewer {
+  display: flex;
+  align-items: center;
+}
+header #DXC {
+  display: flex;
+  align-items: center;
+  margin: 0px 20px 0px 19px;
+}
+header #performance {
+  display: flex;
+  align-items: center;
+  margin: 0px 20px 0px 19px;
+}
+nav {
+  height: 70px;
+  width: 100%;
+  background-color: #c70101;
+  padding: 0px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  margin: 0px 8px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+nav #search p {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0px 10px;
+  color: white;
+  font-size: 13px;
+}
+section {
+  height: 400px;
+  width: 90%;
+  margin: 20px auto;
+  /* background-color: rgb(0, 90, 170); */
+  display: flex;
+  justify-content: space-between;
+}
+#manu {
+  width: 49%;
+  height: 400px;
+  /* background-color: blueviolet; */
+  display: flex;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#image1 {
+  width: 50%;
+  height: 400px;
+  /* background-color: aqua; */
+  background-image: url(../img/Manchester_United_home_kit936021689530880944_xlarge.webp);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#text {
+  color: white;
+  /* background-color: green; */
+  margin: 0px 0px 0px 10px;
+}
+#box {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  border-radius: 5px;
+}
+#text h1 {
+  font-size: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* #share {
+} */
+#tes2 {
+  width: 50%;
+  height: 400px;
+  /* background-color: chocolate; */
+}
+#tes2 h1 {
+  padding: 35px 0px 0px 15px;
+  color: black;
+  /* border-top: 6px solid #c70101; */
+  font-size: 21px;
+}
+#tes2 p {
+  font-size: 15px;
+  padding: 10px 0px 0px 15px;
+  line-height: 22px;
+}
+#tes2 #news {
+  display: flex;
+}
+#manu1 {
+  width: 49%;
+  height: 400px;
+  /* background-color: cadetblue; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  border-radius: 10px;
+}
+#image2 {
+  width: 50%;
+  height: 400px;
+  /* background-color: aqua; */
+  background-image: url(../img/united.webp);
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#tes3 {
+  width: 50%;
+  height: 400px;
+  /* background-color: chocolate; */
+}
+#tes3 h1 {
+  padding: 35px 0px 0px 15px;
+  color: black;
+  /* border-top: 6px solid #c70101; */
+  font-size: 21px;
+}
+#tes3 p {
+  font-size: 15px;
+  padding: 10px 0px 0px 15px;
+  line-height: 22px;
+}
+#tes3 #news {
+  display: flex;
+}
+
+#section1 {
+  height: 420px;
+  width: 90%;
+  margin: 20px auto;
+  /* background-color: rgb(0, 90, 170); */
+  display: flex;
+  justify-content: space-between;
+}
+#register {
+  width: 23%;
+  height: 420px;
+  /* background-color: aqua; */
+  background-image: url(../img/group\ portrait.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#register1 {
+  width: 23%;
+  height: 420px;
+  /* background-color: aquamarine; */
+  background-image: url(../img/Blanc_goal_v_Spurs_29_91689662458033_xlarge.webp);
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#register2 {
+  width: 23%;
+  height: 420px;
+  /* background-color: blanchedalmond; */
+  background-image: url(../img/AWAY_Kit_Teaser_Article_Header1689598824318_xlarge.webp);
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#register3 {
+  width: 23%;
+  height: 420px;
+  /* background-color: aquamarine; */
+  background-image: url(../img/Edinburgh_portrait.webp);
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#section2 {
+  width: 90%;
+  height: 900px;
+  /* background-color: blue; */
+  display: block;
+}
+#Rash {
+  width: 100%;
+  height: 450px;
+  /* background-color: green; */
+  display: flex;
+  justify-content: space-between;
+}
+#Rashfold {
+  width: 48%;
+  height: 450px;
+  /* background-color: aqua; */
+  display: flex;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#Rashs {
+  width: 100%;
+  height: 450px;
+  margin-top: 20px;
+  /* background-color: orange; */
+  display: flex;
+  justify-content: space-between;
+}
+#Rashfold1 {
+  width: 24.5%;
+  height: 450px;
+  /* background-color: brown; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#section3 {
+  width: 90%;
+  height: 900px;
+  margin-top: 70px;
+  /* background-color: blue; */
+  display: block;
+}
+#high {
+  width: 100%;
+  height: 450px;
+  /* background-color: green; */
+  display: flex;
+  justify-content: space-between;
+}
+#highlight {
+  width: 48%;
+  height: 450px;
+  /* background-color: aqua; */
+  display: flex;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#highs {
+  width: 100%;
+  height: 450px;
+  margin-top: 20px;
+  /* background-color: orange; */
+  display: flex;
+  justify-content: space-between;
+}
+#highs1 {
+  width: 24.5%;
+  height: 450px;
+  /* background-color: brown; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#section4 {
+  width: 100%;
+  height: 600px;
+  margin-top: 70px;
+  background-image: url(../img/medium.jpg);
+  /* background-color: #c70101; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#section5 {
+  width: 90%;
+  height: 1400px;
+  margin: 50px auto;
+  /* background-color: blue; */
+  display: block;
+}
+#wre {
+  width: 100%;
+  height: 450px;
+  /* background-color: green; */
+  display: flex;
+  justify-content: space-between;
+}
+#wrex {
+  width: 48%;
+  height: 450px;
+  /* background-color: aqua; */
+  display: flex;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#wres {
+  width: 100%;
+  height: 450px;
+  margin-top: 20px;
+  /* background-color: orange; */
+  display: flex;
+  justify-content: space-between;
+}
+#wres1 {
+  width: 24.5%;
+  height: 450px;
+  /* background-color: brown; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#wresa {
+  width: 100%;
+  height: 450px;
+  margin-top: 20px;
+  /* background-color: orange; */
+  display: flex;
+  justify-content: space-between;
+}
+#wresa1 {
+  width: 24.5%;
+  height: 450px;
+  /* background-color: brown; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#section6 {
+  width: 100%;
+  height: 600px;
+  margin-top: 50px;
+  background-image: url(../img/Away_Kit.webp);
+  /* background-color: #c70101; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#section7 {
+  width: 100%;
+  height: 600px;
+  margin-top: 20px;
+  background-image: url(../img/JR_MUFC.webp);
+  background-size: cover;
+  /* background-color: #c70101; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#section8 {
+  width: 100%;
+  height: 600px;
+  margin-top: 20px;
+  background-image: url(../img/HOME_GROUP_WOMENS.webp);
+  background-size: cover;
+  /* background-color: #c70101; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#section9 {
+  width: 90%;
+  height: 400px;
+  margin: 50px auto;
+  /* background-color: blue; */
+  display: block;
+}
+#reds {
+  width: 100%;
+  height: 400px;
+  /* background-color: green; */
+  display: flex;
+  justify-content: space-between;
+}
+#reds1 {
+  width: 49%;
+  height: 400px;
+  background-image: url(../img/ZAthumb.webp);
+  background-size: cover;
+  border-radius: 10px;
+  /* background-color: aqua; */
+  display: flex;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#reds2 {
+  width: 49%;
+  height: 400px;
+  background-image: url(../img/Mary_Earps_Shirt.webp);
+  background-size: cover;
+  border-radius: 10px;
+  /* background-color: aqua; */
+  display: flex;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#section10 {
+  width: 100%;
+  height: 600px;
+  margin: 50px auto;
+  background-image: url(../img/Onana.webp);
+  /* background-size: cover; */
+  background-color: #c70101;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#section11 {
+  width: 100%;
+  height: 500px;
+  margin-top: 30px;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+#march {
+  display: flex;
+  padding: 50px 0px 10px 100px;
+}
+#march h1 {
+  font-size: 1.3em;
+}
+#march h5 {
+  font-size: 13px;
+  margin: 0px 40px;
+  padding: 5px 0px 0px;
+}
+#friendly {
+  height: 450px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+#friendly1 {
+  height: 400px;
+  width: 18.5%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#section12{
+  width: 100%;
+  height: 700px;
+  margin: 30px auto;
+  background-image: url(../img/Signing.webp);
+  position: center;
+  background-size: cover;
+  background-color: #c70101;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#section13{
+  width: 100%;
+  height: 300px;
+  display: block;
+  /* background-color: antiquewhite; */
+}
+#imagesec{
+  width: 100%;
+  height: 80px;
+  /* background-color: black; */
+  display: flex;
+  padding: 0px 550px;
+}
+.img1{
+  margin-top: 20px;
+  color: white;
+}
+.img1a{
+  margin: 27px 0px 0px 30px;
+  color: white;
+}
+.img1b{
+  margin: 25px 0px 0px 30px;
+}
+
+#imagesec1{
+  width: 100%;
+  height: 90px;
+  background-color: #b76868;
+}

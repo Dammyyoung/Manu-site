@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: candara;
+}
+body{
+    background-color: ;
+}
+
+nav{
+    width: auto;
+    height: 100px;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 30px; 
+    color: gold;  
+}
+
+nav ul{
+   display: flex;
+   gap: 30px;
+   list-style-type:none;
+    
+}
+nav ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    list-style-type:none;  
+}
+
+#btn2 #Our-menu-btn{
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    background-color: gold;
+    text-decoration: none;
+    font-size: 18px;
+}

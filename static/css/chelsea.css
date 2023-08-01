@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    width: 80%;
+    height: 60px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+.site-banner, .site-banner_account, .site-banner_sponsor{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.site-banner_account li, .first a{
+    margin: 0px 20px;
+}
+.site-banner_account{
+    padding: 0px 20px 0px 0px;
+}
+.site-banner_sponsor{
+    padding: 0px 0px 0px 50px;
+}
+nav{
+    height: 70px;
+    width: 80%;
+    /* background-color: green; */
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    margin: 0px 20px;
+    font-weight: bold;
+    color: blue;
+}
+nav .logos{
+    
+}
+
