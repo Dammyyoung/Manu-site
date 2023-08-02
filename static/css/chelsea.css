@@ -20,7 +20,8 @@ header{
     align-items: center;
 }
 .site-banner_account li, .first a{
-    margin: 0px 20px;
+    margin: 0px 15px;
+    font-size: 16px;
 }
 .site-banner_account{
     padding: 0px 20px 0px 0px;
@@ -29,24 +30,48 @@ header{
     padding: 0px 0px 0px 50px;
 }
 nav{
-    height: 70px;
+    height: 120px;
     width: 80%;
     /* background-color: green; */
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* margin-top: 10px; */
 }
-nav ul {
+.imags1, .imags1a, .imags2{
     display: flex;
+    height: 80px;
     align-items: center;
 }
-nav ul li{
-    margin: 0px 20px;
-    font-weight: bold;
+.imags1a a,  .imags2 .searchs{
+    margin: 0px 0px 0px 35px;
+}
+.imags1a li{
+    font-family:'Poppins', sans-serif;
     color: blue;
+    font-weight: bold;
+    font-size: 17px;
 }
-nav .logos{
-    
+.imags1 img{
+    width: 10%;
 }
-
+.imags2a .searchs{
+    display: flex;
+    align-items: center;
+    margin: 0px 40px;
+}
+.boxs{
+    height: 120px;
+    width: 120px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxs p{
+    /* padding-top: 50px; */
+    display: block;
+    text-align:  center;
+    color: white;
+}
